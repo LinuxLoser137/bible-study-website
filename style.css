@@ -1,0 +1,127 @@
+/*
+  KJV Bible Study Journal Styles
+  This file controls the colors, spacing, and layout for every page.
+*/
+
+/* This makes padding easier to control on every element. */
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #f7f3ea;
+  color: #2f241d;
+  line-height: 1.6;
+}
+
+/* Header / Hero Section */
+header {
+  background-color: #8f2d17;
+  color: white;
+  text-align: center;
+  padding: 45px 20px;
+}
+
+header h1 {
+  margin: 0;
+  font-size: 38px;
+}
+
+header p {
+  margin-top: 10px;
+  font-size: 18px;
+}
+
+/* Navigation Bar */
+nav {
+  background-color: #d89b22;
+  padding: 12px;
+  text-align: center;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+  margin: 0 12px;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+
+/* Main page container */
+.container {
+  width: 90%;
+  max-width: 1000px;
+  margin: 30px auto;
+}
+
+/* Cards are the white boxes on the page. */
+.card {
+  background-color: white;
+  border-radius: 12px;
+  padding: 24px;
+  margin-bottom: 24px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+}
+
+.card h2 {
+  color: #8f2d17;
+  margin-top: 0;
+}
+
+/* Two-column section for the home page */
+.grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px;
+}
+
+/* Verse styling */
+.verse {
+  border-left: 5px solid #d89b22;
+  padding-left: 15px;
+  font-style: italic;
+  background-color: #fff8e8;
+}
+
+.button {
+  display: inline-block;
+  background-color: #8f2d17;
+  color: white;
+  padding: 10px 16px;
+  border-radius: 8px;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.button:hover {
+  background-color: #6f2111;
+}
+
+footer {
+  background-color: #8f2d17;
+  color: white;
+  text-align: center;
+  padding: 16px;
+  margin-top: 40px;
+}
+
+/* This makes the website look good on phones. */
+@media (max-width: 700px) {
+  header h1 {
+    font-size: 30px;
+  }
+
+  nav a {
+    display: block;
+    margin: 8px 0;
+  }
+
+  .grid {
+    grid-template-columns: 1fr;
+  }
+}
