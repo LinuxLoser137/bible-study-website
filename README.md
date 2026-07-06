@@ -4,7 +4,7 @@ A beginner-friendly Bible study website built with HTML and CSS. This project he
 
 ## Live Website
 
-Add live website link here.
+soft-tapioca-d2e0bb.netlify.app
 
 ## About This Project
 
